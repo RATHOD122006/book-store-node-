@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.btn {
+  background: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn.delete {
+  background: red;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  margin: 15px;
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form input, form textarea, form button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
